@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Ze'ev's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="navbar-container" class="glass-effect">
+      <nav id="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contact-main" class="glass-effect">
+      <section class="contact-sections" id="form-section">
+        <h1>Contact Me</h1>
+        <form id="contact-form" action="#" method="post">
+          <label class="contact-form-labels" for="name">Name:</label>
+          <input
+            class="contact-form-inputs"
+            type="text"
+            id="name"
+            name="name"
+            required
+          /><br /><br />
+
+          <label class="contact-form-labels" for="email">Email:</label>
+          <input
+            class="contact-form-inputs"
+            type="email"
+            id="email"
+            name="email"
+            required
+          /><br /><br />
+
+          <label class="contact-form-labels" for="message">Message:</label>
+          <textarea
+            class="contact-form-inputs"
+            id="message"
+            name="message"
+            rows="5"
+            required
+          ></textarea
+          ><br /><br />
+
+          <button id="contact-form-submit" type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <section class="contact-sections" id="social-media-section">
+        <h2>Follow Me</h2>
+        <ul id="social-media-list">
+          <li>
+            Social Media
+            <ul id="social-media-inner-list">
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="glass-effect">
+      <p>&copy; 2024 Ze'ev Joseph</p>
+    </footer>
+  </body>
+</html>
